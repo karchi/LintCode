@@ -20,6 +20,8 @@ class TestCases(unittest.TestCase):
         self.assertEqual(self.solutionCase.singleNumber([]), 0)
 
 
+'''
+# Sloution 1:
 class Solution:
     """
     @param A : an integer array
@@ -33,6 +35,21 @@ class Solution:
                 if A.count(number) == 1:
                     res = number
                     break
+        return res
+'''
+
+
+# Sloution 2:
+class Solution:
+    """
+    @param A : an integer array
+    @return : a integer
+    """
+    def singleNumber(self, A):
+        res = 0
+        if A != []:
+            for number in A:
+                res = res ^ number
         return res
 
     
