@@ -35,7 +35,7 @@ class Solution:
     @return: if any value appears at least twice in the array
     """
     def containsDuplicate(self, nums):
-        return not len(set(nums)) == len(nums)
+        return len(set(nums)) != len(nums)
 
 
 if __name__ == '__main__':
