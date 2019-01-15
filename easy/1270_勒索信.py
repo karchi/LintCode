@@ -2,7 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 '''
-# 1270. 勒索信,题目地址：hhttps://www.lintcode.com/problem/ransom-note/description
+# 1270. 勒索信,题目地址：https://www.lintcode.com/problem/ransom-note/description
 # 给定一个任意的表示勒索信内容的字符串，和另一个字符串，表示能从杂志中获取到的所有字符，写一个方法判断能否通过剪下杂志中的字符来构造出这封勒索信，若可以，返回 true；否则返回 false。
 # 杂志字符串中的每一个字符仅能在勒索信中使用一次。
 # 你可以认为两个字符串都只包含小写字母。
